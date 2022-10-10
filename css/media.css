@@ -1,0 +1,305 @@
+@media (max-width: 1499px) {
+    .welcome {
+        background-repeat: repeat-x;
+        background-position: inherit;
+       
+    }
+}
+@media (max-width: 1400px) {
+    .welcome{
+        background-size: cover;
+    }
+    .btn-sidenav {
+        display: none;
+        
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0;
+        padding: 12px;
+    }
+
+    .navbar-brand {
+        width: 40%;
+    }
+
+    .about{
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn-sidenav {
+        display: block;
+    }
+
+    .welcome {
+        text-align: left;
+        background-image: none;
+        background-color: #7fc347;
+        padding: 0;
+        padding: 100px 0px;
+    }
+
+    .about {
+        text-align: left;
+        padding: 70px 0px 0px 0px;
+    }
+
+    .about_box {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .hire{
+
+padding: 70px 0px 0px 0px;
+
+}
+    
+    .hire_form {
+        text-align: center;
+    }
+
+    .hire_dev h2 {
+        text-align: left;
+    }
+
+    .dev_skill h3 {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .dev_skill hr {
+        width: 20%;
+    }
+
+    .dev_skill p {
+    margin: 0;
+    }
+
+    .apply {
+    }
+
+    .exp {
+        padding: 0;
+        PADDING: 20px 30px;
+    }
+
+    .exp img {
+        width: 45%;
+    }
+
+    .exp h3 {}
+
+    .exp p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .share {
+        display: none;
+    }
+
+    .share2 {
+        display: block;
+
+    }
+
+    .social {
+        border-left: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ced4da;
+
+    }
+
+    .contact {
+    }
+   
+    .mediaform {
+        display: block;
+    }
+
+    .mainform {
+    }
+
+    .contact_form form{
+    }
+}
+
+@media (max-width: 767px) {
+
+    .welcome{
+    padding: 100px 0px 70px 0px;
+    }
+
+    .welcome_image img{
+        padding-top: 3rem;
+    }
+    .navbar-brand {
+        width: 78%;
+    }
+
+    .btn-sidenav {
+        font-size: 20px;
+    }
+
+    .welcome_content .logo {
+        text-align: center;
+    }
+
+    .apply_button {
+        text-align: center;
+    }
+
+    .welcome_content p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_us h2 {
+        text-align: center;
+    }
+
+    .about{
+        padding: 0;
+        padding-top: 70px;
+    }
+    .about_us p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_box {
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .hire {
+    padding: 0;
+    padding-top: 70px;
+    }
+
+    .hire_dev h2 {
+        text-align: center;
+    }
+
+    .dev_skill h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .dev_skill hr {
+        margin: auto;
+        width: 50%;
+    }
+
+    .dev_skill p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .apply {
+    padding: 0;
+    padding-top: 70px;
+    }
+
+    .apply_dev h2 {
+        text-align: center;
+    }
+
+    .apply_dev p {
+        text-align: center;
+    }
+
+    .contact {
+    padding: 0;
+    padding: 70px 0px 48px 0px;
+    }
+
+    .contact_form form input[type="Submit"] {
+        text-align: center;
+    }
+
+    .contact h2 {
+        text-align: center;
+    }
+
+    .social {
+        border-left: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ced4da;
+        text-align: center;
+    }
+
+    .social_icon {
+        justify-content: center;
+    }
+
+    .contact_image{
+        padding: 0;
+        width: 50%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .about_us h2 {
+        font-size: 30px;
+    }
+
+    .hire_dev h2 {
+        font-size: 30px;
+    }
+
+    .dev_skill h3 {
+        font-size: 20px;
+    }
+
+    .dev_skill p {
+        font-size: 18px;
+    }
+
+    .apply_dev h2 {
+        font-size: 30px;
+    }
+
+    .apply_dev p {
+        font-size: 20px;
+    }
+
+    .contact h2 {
+        font-size: 30px;
+    }
+
+    .exp {
+        margin-bottom: 30px;
+    }
+
+    .social {
+        border-left: 0;
+        padding: 0;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #ced4da;
+        text-align: center;
+    }
+
+    .social_icon {
+        justify-content: center;
+    }
+
+    .social ul li{
+    font-size: 16px;
+}
+
+    
+}

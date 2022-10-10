@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*font-family: 'Rubik', sans-serif;*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+/* 
+
+/* nav starts */
+.header {
+    background: #7fc347;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {}
+
+.navbar-brand img {
+    width: 15%;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+
+
+.offcanvas {
+    width: 280px;
+}
+
+.offcanvas-title {
+    font-size: 30px;
+    color: #7fc347;
+    margin-left: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.offcanvas-body {}
+
+.offcanvas-body ul {}
+
+.offcanvas-body ul li {
+    list-style: none;
+    padding: 10px;
+
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.offcanvas-body ul li:hover {
+    background: #00000038;
+    transition: .4s all ease-in-out;
+}
+
+.offcanvas-body ul li a {
+    text-decoration: none;
+    color: #474748;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn-sidenav {
+    display: none;
+    background: transparent;
+    border-radius: 0;
+}
+
+.btn-sidenav:focus {
+    box-shadow: none;
+}
+
+.btn-sidenav i {
+    color: #fff;
+}
+
+.active {
+    background-color: black;
+    color: #6C7293;
+    transition: .4s ease-out;
+}
+
+/* welcome */
+.welcome {
+    background-color: #7fc347;
+}
+.welcome-row {
+    min-height: 100vh;
+    align-items: center;
+}
+
+.welcome_content {}
+
+.welcome_content .logo {}
+
+.welcome_content .logo .img {}
+
+.welcome_content p {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: 16px 0px 8px 0px;
+    color: #fff;
+}
+
+.apply_button {
+    margin: 16px 0px 0px 0px;
+}
+
+.hire-btn {
+    padding: 0;
+    background: #518b21;
+    padding: 11px 30px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.hire-btn:hover,
+.apply-btn:hover {
+    color: #fff;
+    background-color: #007710;
+    transition: .4s all ease-in-out;
+}
+
+.apply-btn {
+    padding: 0;
+    background: #518b21;
+    padding: 11px 30px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.welcome_image {
+    text-align: center;
+}
+
+.welcome_image img {}
+
+/* welcome ends */
+
+/* about us */
+.about {
+    padding: 120px 0px 0px 0px;
+}
+
+.about_us {}
+
+.about_us h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7fc347;
+    font-family: 'Rubik', sans-serif;
+}
+
+.about_us p {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: 16px 0px 48px 0px;
+    color: #6C7293;
+}
+
+.about_box {
+    align-items: center;
+    padding: 10px 100px 40px 0px;
+}
+
+.about_box i {
+
+    font-size: 50px;
+
+    margin-bottom: 10px;
+
+    color: #7fc347;
+}
+
+.about_box p {
+
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 500;
+
+    color: #000;
+
+    margin: 24px 0px 16px 0px;
+}
+
+.about_box h3 {
+    color: #6C7293;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+
+.about_box:hover {}
+
+/* about us ends */
+
+
+/* hire */
+.hire {
+    padding: 120px 0px 0px 0px;
+}
+
+.hire_dev {}
+
+.hire_dev h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7fc347;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 8px;
+}
+
+.dev_skill {}
+
+.dev_skill h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.dev_skill hr {
+    width: 10%;
+    color: #000;
+}
+
+.dev_skill p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #474748;
+    text-transform: capitalize;
+}
+
+.dev_skill ul {
+    margin: 20px 0px;
+}
+
+.dev_skill ul li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #6C7293;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.dev_skill ul li i {
+
+    font-size: 20px;
+
+    margin-right: 16px;
+
+    color: #7fc347;
+}
+
+.hire_form {
+    display: block;
+    margin-top: 10px;
+}
+
+.hire_skill {
+    text-align: center;
+}
+
+.hire_skill img {}
+
+/* .hire ends */
+
+
+/* apply */
+.apply {
+    padding: 120px 0px 0px 0px;
+}
+
+.apply_dev {}
+
+.apply_dev h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7fc347;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 8px;
+}
+
+.apply_dev p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #474748;
+    text-transform: capitalize;
+}
+
+.apply_exp {
+    margin-bottom: 30px;
+}
+
+.exp {
+    padding: 40px;
+    box-shadow: rgb(7 42 68 / 9%) 0px 9px 15px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.exp img {
+    width: 20%;
+}
+
+.exp h3 {
+    color: #000;
+    margin: 30px 0px 0px 0px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+
+.exp p {
+    color: #6C7293;
+    font-size: 16px;
+    padding: 8px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.customfile {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.customfile::-webkit-file-upload-button {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    margin: 0px 15px;
+}
+
+.upload_doc {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 10px;
+}
+
+.upload_doc label {
+    padding-right: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+/* apply ends */
+
+/* Contact */
+.contact {
+    padding: 120px 0px 120px 0px;
+}
+
+.contact h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7fc347;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 8px;
+}
+
+.contact p {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: 16px 0px 48px 0px;
+    color: #6C7293;
+}
+
+.contact_image {}
+
+.contact_image img {}
+
+.contact_form {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.contact_form form label {
+    margin-bottom: 8px;
+}
+
+.mainform {}
+
+.mediaform {
+    display: none;
+}
+
+.contact_form form input {
+
+    margin-bottom: 20px;
+
+    border-radius: 0px;
+
+    padding: 0;
+
+    padding: 20px;
+
+    font-size: 14px;
+
+    font-family: 'Rubik', sans-serif;
+
+    border-radius: 8px;
+}
+
+.contact_form form input::placeholder {
+    font-family: 'Lato', sans-serif;
+    color: #474748;
+    text-transform: capitalize;
+}
+
+.contact_form form textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    color: #474748;
+    text-transform: capitalize;
+}
+
+.contact_form form textarea {
+    border-radius: 0px;
+    padding: 0;
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 8px;
+}
+
+.contact_form form input[type="Submit"] {
+
+    background-color: transparent;
+
+    background: #7fc347;
+
+    border: none;
+
+    padding: 11px 30px;
+
+    color: #fff;
+
+    border-radius: 50px;
+
+    font-size: 14px;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 500;
+}
+
+.contact_form form input[type="Submit"]:hover {
+    background: #007710;
+    transition: .3s all ease-in-out;
+}
+
+.form-control:focus {
+    color: #000 !important;
+    background-color: transparent;
+    border-color: #dcdcdc;
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+
+.social {
+    padding-left: 70px;
+}
+
+.share2 {
+    display: none;
+}
+
+.social ul {}
+
+.social ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #7fc347;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.social ul li a {
+    text-decoration: none;
+    color: #474748;
+    font-family: 'Rubik', sans-serif;
+}
+
+.social_icon {
+    display: flex;
+}
+
+.social_icon ul {
+    display: flex;
+}
+
+.social_icon ul li {
+    margin-right: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.social_icon ul li a:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+
+}
+.social a:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* contact ends */
+
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #7fc347;
+}
+
+footer p {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+.wordOne {
+    /* Fix this*/
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .wordOne:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+  }
