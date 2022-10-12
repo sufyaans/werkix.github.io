@@ -50,8 +50,6 @@ a {
     color: #fff;
 }
 
-
-
 .offcanvas {
     width: 280px;
 }
@@ -151,7 +149,7 @@ a {
 .hire-btn:hover,
 .apply-btn:hover {
     color: #fff;
-    background-color: #007710;
+    background-color: #474748;
     transition: .4s all ease-in-out;
 }
 
@@ -317,7 +315,14 @@ a {
 .apply {
     padding: 120px 0px 0px 0px;
 }
-
+.apply-img {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.apply-content {
+    padding: 50px 0;
+}
 .apply_dev {}
 
 .apply_dev h2 {
