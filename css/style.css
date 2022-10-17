@@ -43,11 +43,12 @@ a {
     font-weight: 700;
     padding: 10px;
     margin-left: 10px;
+    white-space: nowrap;
 }
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: #007710;
 }
 
 .offcanvas {
