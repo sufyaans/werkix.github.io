@@ -583,6 +583,90 @@ footer p {
     color: #fff;
 }
 
+.offices {
+    color: #ffffff;
+    
+    font-size: 14px;
+}
+.wrapper{
+	clear:both;
+	position: relative;
+	overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    
+}
+
+@media screen and (min-width: 900px) {
+#left {
+
+    text-align:center;
+    float:left;
+    display: inline-block;
+}
+
+#left:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 900px) {
+#centred{
+    display: inline-block;
+    text-align:center;
+}
+
+#centred:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 900px) {
+#right {
+    
+    float:right;
+    text-align:center;
+    display: inline-block;
+
+}
+
+#right:hover {
+    color: #007710;
+    transition: all 0.3s ease;
+  }
+}
+
+
+
+
+/* @media screen and (max-width: 850) {
+    #left {
+        
+        text-align:center;
+        display: inline-block;
+    }
+    }
+    
+@media screen and (max-width: 850) {
+    #centred{
+        
+        display: inline-block;
+        text-align:center;
+    }
+    }
+    
+@media screen and (max-width: 850) {
+    #right {
+        
+        text-align:center;
+        display: inline-block;
+    
+    }
+    } */
+
+
+
 .wordOne {
     /* Fix this*/
     color: #ffffff;
